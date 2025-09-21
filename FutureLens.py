@@ -10,7 +10,7 @@ warnings.filterwarnings('ignore')
 # ----------------------------
 # Reading Files
 # ----------------------------
-df = pd.read_csv('E:\Analysis\Pyhton Scripts\Forecasting Model\Data\Combined Data.csv')
+df = pd.read_csv('Combined Data.csv')
 
 
 # ----------------------------
@@ -103,4 +103,5 @@ else:
     st.markdown("""
     - **Growth/Decline (%)** compares the forecasted value to the previous month.
     - Positive values = 📈 Growth, Negative values = 📉 Decline.
+
     """)
